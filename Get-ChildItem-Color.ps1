@@ -59,7 +59,7 @@ function Get-ChildItem-Color
         # Handle the colors
         $Color = 'black'
         if ($_ -is [System.IO.DirectoryInfo]) {
-            $Color = 'blue'
+            $Color = 'DarkBlue'
         }
         elseif ($_.Extension -like ".exe") {
             $Color = 'green'
